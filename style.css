@@ -1,0 +1,39 @@
+body {
+    margin: 50px;
+    padding: 10px;
+}
+
+#links {
+    padding-top: 50px;
+    margin: 10px;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+    border-top: 1px solid darkgrey;
+}
+
+#form {
+    padding-top: 50px;
+    margin: 10px;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+}
+
+#table,#table-add {
+    padding-top: 50px;
+    width: 50%;
+    margin: 10px;
+    border-bottom: 1px solid darkgrey;
+}
+td,th {
+    padding: 5px;
+}
+#links > tbody > tr > td {
+    width: 20%;
+}
+
+#newRow, #updateRow{
+    display: none;
+}
+.hidden{
+    display: none;
+}
